@@ -9,10 +9,22 @@ for (let i = 0; i < heading.length; i++) {
   heading[i].style.textTransform = "uppercase";
 }
 
+
+    let img= document.createElement("img");
+    img.src="./fruit7 (1).jpg"
+    let container=document.getElementById("photo");
+    container.appendChild(img)
+    img.style.width="50%"
+    img.style.marginLeft="20%"
+    img.style.borderRadius ="20px"
+
+
 // / Change the font color for h1 title tag to
 // green
 
 document.getElementById('title').style.color = 'green'
+document.getElementById('title').style.textAlign='center'
+document.getElementById('paragraph').style.textAlign ='center'
 
 // Add one more fruit to the fruits list
 
